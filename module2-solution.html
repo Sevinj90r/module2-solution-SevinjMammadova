@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="module2-solution.css">
+  <style>
+
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      margin: 10px;
+      display: flex;
+      position: relative;
+    }
+    h1{
+      text-align: center;
+    }
+
+    h5{
+      border: 2px solid black;
+      margin: 0 0 0 250px;
+      display: flex;
+    }
+    .h5chicken{
+      background-color: pink;
+      text-align: right;
+      padding: 4px;
+
+    }
+    .h5beef{
+      background-color: rgb(146, 5, 5);
+      text-align: right;
+      padding: 4px;
+      color: white;
+    }
+    .h5sushi{
+      background-color: rgb(197, 197, 92);
+      text-align: right;
+      padding: 4px;
+    }
+    
+  .one,.two,.three{
+    border: 1px solid;
+    margin: 20px;
+    width: 28%;
+    height: 185px;
+    padding-left: 20px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+@media(min-width:979px){
+  .one, .three, .two{
+    float: left;
+    width: 28%;
+  }
+}
+@media(min-width: 768px)and (max-width){
+      .one, .two{
+       float: left;
+        width: 50%
+      }
+    .three{
+      float: left;
+      width: 100%;
+    }}
+    @media (max-width: 767px){
+      .one,.two,.three{
+        float: left;
+        width: 100%;
+      }}
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <h1>Our Menu</h1>
+      <div class="one">
+        <h5 class="h5chicken">Chicken</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis libero magnam ratione quae, quia, accusantium exercitationem officia nostrum commodi delectus pariatur. Ipsum iste dolore veniam non shjk jkl kjnlkmk mljkl uscipit fugiat facere optio!</p>
+      </div>
+      <div class="two">
+        <h5 class="h5beef">Beef</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus recusandae reprehenderit dolor vitae facilis similique repudiandae voluptate provident doloremque sed reiciendis, commodi nemo, dolorem eligendi impedit, nostrum amet voluptates!</p>
+      </div>
+      <div class="three">
+        <h5 class="h5sushi">Sushi</h5>
+        <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis nostrum cupiditate, corrupticvxvxvcx distinctio labore, debitis rem hjskds hbjkmlk.,d nksm tempora excepturi quidem porro perspiciatis quam cum alias, provident vitae quaerat esse. Laboriosam, cum.
+      </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
